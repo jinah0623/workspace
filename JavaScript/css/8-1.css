@@ -1,0 +1,18 @@
+@charset 'utf-8'
+
+body{
+
+}
+
+#mydiv#firstP:hover{
+    color: teal;
+    list-style: none;
+
+}
+#mydiv#firstP:hover{
+    color: red;
+}
+.this{
+    color: white;
+    background: black;  
+}

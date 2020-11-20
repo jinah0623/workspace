@@ -1,0 +1,52 @@
+body{
+    background-color: ivory;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+#aaa{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box1_1{
+    background-color:gray;
+}
+.box1_1.passive{
+background: ivory;
+}
+.box1_2{
+    background-color: gray;
+}
+.box1_2.passive{
+    background-color:ivory;
+}
+.box1_3{
+    background-color:gray;
+}
+.box1_3.passive{
+    background-color:ivory;
+}
+.box1_4{
+    background-color:gray;
+}
+.box1_4.passive{
+    background-color:ivory;
+}
+.box1_5{
+    background-color:gray;
+}
+.box1_5.passive{
+    background-color:ivory;
+}
+
+#bbb{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+}

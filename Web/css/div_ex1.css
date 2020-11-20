@@ -1,0 +1,40 @@
+
+div{
+    width: 100px;
+    height: 100px;
+    margin-bottom:30px
+    margin-right: 30px;
+    background: red;
+}
+.container{
+    left: 100px;
+    top: 100px;
+    position: relative;
+}
+.container{
+    left: 100px;
+    top: 100px;
+    position: relative;
+}
+.inline{
+    background:pink;
+    display: inline-block;
+}
+
+.inline1{
+    background: purple;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+}
+.block1{
+    background: blue;
+    left: 270px;
+    top: 260px;
+    position: relative;
+}
+.block{
+    background: gold;
+    position: relative;;
+    margin-bottom: 3px;
+}

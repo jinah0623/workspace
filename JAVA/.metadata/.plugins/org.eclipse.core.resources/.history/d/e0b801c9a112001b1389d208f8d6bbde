@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Volume{
+	public String volupdown() {
+		
+		boolean stop = false;
+ 
+		
+		while (!stop) {
+			
+			int volume = 0;
+				Scanner sc = new Scanner(System.in);
+				System.out.println("연산자 입력(+,-)");
+				String a = sc.next();
+			
+			if(a.equals("+")) {
+				public int volumeUp() {
+				++volumeUp;
+				String vl = "볼륨이 올라갔습니다";
+				System.out.println("볼륨은"+volumeUp);
+				}
+
+		if(a.equals("-")){				
+			String vl = "볼륨이 내려갔습니다.";
+			//System.out.println("현재 볼륨은"+result+"입니다");
+			continue;
+			}
+		}
+	}
+}
+
+/*			System.out.println("볼륨이 올라갔습니다.");
+System.out.println("현재 볼륨은"+result+"입니다.");	
+} */

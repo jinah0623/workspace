@@ -1,0 +1,33 @@
+.container{
+    background: blanchedalmond;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.item{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background: coral;
+}
+
+.item1{
+    background: chartreuse;
+    flex-shrink: 4;     /*줄어드는 비율: 숫자가 클수록 많이 줄어듬*/
+}
+.item2{
+    background: lightcyan;
+    flex-shrink: 3;
+    flex-grow: 2;       /*늘어나는 비율 */
+}
+.item3{
+    background: chartreuse;
+    flex-shrink: 2;
+    flex-grow: 3;
+}
+.item4{
+    background: lightsalmon;
+    flex-shrink: 0;
+    flex-grow: 4;
+}

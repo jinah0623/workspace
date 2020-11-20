@@ -1,0 +1,61 @@
+*{
+
+}
+body {
+  background: url('/game1/img/background.png') center/cover no-repeat;
+  /* center: 위치(left,right가능) / cover:크기 /repeat:반복여부*/
+}
+#header {
+  width: 100vw;   /*배경크기*/
+  height: 100vh;
+}
+
+/*버튼 전체 정렬*/
+.pause{     
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.pause_btn{
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  border-radius: 20%;
+  border: 3px solid black;
+}
+.pause_btn:hover{
+  background-color: grey;
+}
+.score_counter{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  border: 3px solid black;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 10%;
+}
+.timer{
+  width: 70px;
+  height: 70px;
+  border: 3px solid black;
+  border-radius: 50%;
+  background-color: palevioletred;
+  color: white;
+}
+
+.replay_btn{
+  width: 60px;
+  height: 60px;
+  background-color: papayawhip;
+  border-radius: 20%;
+  border: 3px solid black;
+  font-size: 30px;
+}
+.replay_btn:hover{
+  background-color: rgb(230, 177, 107);
+}

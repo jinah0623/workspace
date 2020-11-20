@@ -1,0 +1,57 @@
+import java.util.Scanner;
+
+public class Coding_16 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		Coding_16 TV = new Coding_16();		
+		
+		System.out.println("리모콘입니다.");
+		System.out.println("On, Off 입력");
+		String of = sc.next();
+		int volume =0;
+		
+		Telev tv = new Telev();
+		String c = tv.turnonoff();	
+		
+		if (of.equals("On") || of.equals("on")) {
+			System.out.println("----------------");
+			vo
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		}
+		if (of.equals("Off") || of.equals("off")) {
+			break;
+	}
+		System.out.println();
+		
+		
+		
+		
+/*	
+		
+		tv.turnonoff();
+		
+		Volume vl = new Volume();
+		String b = vl.volupdown();	
+		
+		vl.volupdown();
+		
+		Channel ch = new Channel();
+		String a = ch.chnupdown();
+		ch.chnupdown();
+
+		}
+		
+*/
+	}
+
+}

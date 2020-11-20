@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+ul{
+    padding: 0;
+}
+
+button{
+    background-color: yellowgreen;
+}
+
+body{
+    background-color:rgba(161, 218, 253, 0.74);
+    text-align: center;
+}
+
+.list{
+    width: 700px;
+    margin: auto;
+    background-color:	#ffd900;
+}
+.header{
+    height: 48px;
+    font-size: 30px;
+    background-color:	#ffa600;
+    color: rgb(179, 121, 15);
+}
+#triangle{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid #ffd900;
+}

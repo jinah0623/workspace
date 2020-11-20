@@ -1,0 +1,62 @@
+: root{
+    /*color 정의*/
+    
+    /*size 정의*/
+
+
+
+}
+button,
+button:focus{
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.header_name{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.header_name i{
+    font-size: 2rem;
+}
+#header_search{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.header_search i{
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.player{
+    position: sticky;
+    display: flex;
+    justify-content: center;
+}
+#content1{
+    list-style: none;
+}
+.body_menu{
+    display: flex;
+
+}
+.body_menu i{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}

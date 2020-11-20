@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+html, body{
+    height: 100%;
+}
+body{
+    background: #EEEBE4;
+}
+
+/*menu + header*/
+#wrap{width: 100%; padding-top: 62px; overflow: hidden;}
+#header{position: fixed; top: 0; z-index: 120; width: 100%; height: 60px; padding-bottom: 2px;background:url('/javascript/simmons_bed.jpg';) repeat-x 0 100% #fff;}
+#header .main{position: fixed; left: 0; top: 0; z-index: 60; width: 100%; height: 60px;}
+#header .fas fa-bars{position: absolute; left: 30px; top: 16px; width: 24px; height: 17px; padding-top: 26px; no-repeat 0 0; color: black; font-size: 12px; text-align: center;}
+#header .h1{width: 55px; padding-top: 12px; margin: 0 auto;}
+#header .cart_btn{position: absolute; right: 30px; top: 11px; width: 28px; height: 24px; padding: 31px 0 0 1px; no-repeat 0 0; color: black; font-size: 20px;} //카트 크기
+#header .cart_btn.open{no-repeat 0 0;}
+#header .main h1{padding: 12px 17px 0 0;}
+#header.main .cart_btn{right: 47px;}
+
+/*왼쪽 메뉴*/
+#menu_left{position: absolute; left: -300px; top: 0; z-index: 100; width: 300px; height: 100%; background: white;}
+#menu_left > a{position: absolute; right: 20px; top: 20px; width: 23px; no-repeat 0 0; text-indent: -9999em;}
+#menu_left ul.menu_list{padding: 90px 0 20px 0; border-bottom: 1px solid green;}
+#menu_left > ul > li > a{color: #222; font-size: 13px; font-family: 'Goldman', cursive; font-weight: 400;}
+#menu_left > div{position: relative; margin-top: 30px; text-align: center;}
+#menu_left > div ul{display: inline-block;}
+#menu_left > div ul:after{content: ''; display: block; clear: both;}
+#menu_left > div ul li{float: left; padding-left: 10px; margin-left: 9px; no-repeat 0 50%;}
+#menu_left > div ul li a{color: black; font-size: 11px; font-weight: 400px;}
+#menu_left > div fieldset{padding-top: 28px;}
+#menu_left > div fieldset > a{display: block; width: 15px; height: 15px;no-repeat 0 0; text-indent: -9999em;}
+#menu_left > div fieldset div{width: 208px; background: white; border: 2px solid green;height: 33px;}
+#menu_left > div fieldset div input{width: 154px; height: 33px; padding: 0 15px; border: 0; line-height: 33px;}
+#menu_left > div fieldset div label{position: absolute; width: 0; height: 0; font-size: 0; line-height: 0; overflow: hidden; visibility: hidden; text-indent: -5000px;}
+#menu_left > div fieldset div i{display: inline-block; width: 15px; height: 15px; color: green; }
+#menu_left > *{width: 205px; margin: 0 auto;}
+/*SNS아이콘*/
+#menu_left .menu_sns{padding-top: 40px;}
+#menu_left .menu_sns:after{content: ''; display: block; clear: both;}
+#menu_left .menu_sns li{float: left;}
+#menu_left .menu_sns a{margin-right: 22px;}
+#menu_left .menu_sns .fb{display: block; width: 17px; height: 17px; no-repeat 0 0;}
+#menu_left .menu_sns .ig{display: block; width: 17px; height: 17px; no-repeat 0 0;}
+#menu_left .menu_sns .yt{display: block; width: 17px; height: 17px; no-repeat 0 0;}
+/*장바구니*/
+#cart{position: absolute; right: -300px; top: 0; z-index: 100px; width: 300px; height: 100%; background: white;}
+#cart > *{margin-left: 45px;}
+#cart .cart_close{position: absolute; right: 20px; top: 20px; width: 23px; height: 23px;font-size: 20px; }
+#cart .cart_inside{padding: 85px 0 37px 0;}
+#cart .cart_inside::after{content: ''; display: block; clear: both;}
+#cart .cart_inside li{float: left;}
+#cart .cart_inside li.open a{color: rgb(117, 79, 48);}
+#cart .cart_inside li a{color: khaki;}
+#cart > div.

@@ -1,0 +1,34 @@
+h1 {
+    font-size: 1.75rem; /*28px*/
+    color: burlywood;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    padding: 2em; /*32px*/
+  }
+  
+  .component {
+    border: 1px solid burlywood;
+    margin: 1em; /*16px*/
+  }
+  
+  .title {
+    font-size: 1.5em; /*24px 어떤 사이트나 컴퍼넌트와 관계없이 동일한 사이즈 유지*/
+    padding: 1em; /*16px*/
+    background-color: burlywood;
+  }
+  
+  .contents {
+    font-size: 1.125em; /*18px*/
+    padding: 1em; /*16px*/
+  }
+  
+  @media screen and (max-width: 48rem) {
+    /*768*/
+    .container {
+      flex-direction: column;
+    }
+  }

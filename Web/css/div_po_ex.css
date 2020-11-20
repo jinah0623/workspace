@@ -1,0 +1,82 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin-bottom:50px
+    margin-right: 50px;
+}
+.container{
+
+    background-color: rgb(241, 222, 199);
+    position: relative;
+    height: 100vh;
+}
+.box1{
+    background: grey;
+    position: fixed;
+    /* absolute는 container자리에서 100이동,
+     relative는 본 위치에서 100이동
+     fixed는 body태그 기준에서 100 이동
+     */
+}
+.box2{
+    background: rgb(250, 250, 252);
+    left: 100px;
+    top: 100px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.box3{
+    background: rgb(255, 255, 255);
+    left: 100px;
+    top: 100px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.box4{
+    background: rgb(250, 250, 250);
+    left: 100px;
+    top: 100px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.box5{
+    background: rgb(32, 27, 27);
+    left: 100px;
+    top: 100px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.box6{
+   background-color: rgb(135, 179, 129);
+   left: 250px;
+   top: 100px;
+   position: absolute;
+}
+.box7{
+    background-color: rgb(135, 179, 129);
+    left: 350px;
+    top: 100px;
+    margin-left: 50px;
+    position: absolute;
+}
+.box8{
+    background-color: rgb(135, 179, 129);
+    left: 500px;
+    top: 100px;
+    margin-left: 50px;
+    position: absolute;
+}
+.box9{
+    background-color: rgb(135, 179, 129);
+    left: 650px;
+    top: 100px;
+    margin-left: 50px;
+    position: absolute;
+}
+.box10{
+    background-color: red;
+    left: 500px;
+    top: 400px;
+    margin-left: 50px;
+    position: absolute;
+}

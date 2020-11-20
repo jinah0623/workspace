@@ -1,0 +1,21 @@
+public class Volume {
+		public String updown() {
+
+			public int vl(int a int result) {
+				if (a.equals("+")) {
+					result++;				
+					System.out.println("볼륨이 올라갔습니다.");
+					System.out.println("현재 볼륨은"+a+"입니다.");		
+				}
+				
+				if(a.equals("-")){
+					result--;				
+					System.out.println("volume은:"+result);
+					continue ;				
+
+			String vl = "올라갔습니다";
+			boolean stop = false;
+			int result = 0;
+				}
+			}
+			

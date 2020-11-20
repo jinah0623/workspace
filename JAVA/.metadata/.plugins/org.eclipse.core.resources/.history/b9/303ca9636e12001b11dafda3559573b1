@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Smartphone_volume {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("연산자 입력(+,-)");
+		String a = sc.next();
+		boolean run = false;
+		int result = 0;
+		System.out.println("볼륨:" + result);
+
+		while (run) {
+			if (a.equals("+")) {
+				result = result +1;
+				System.out.println("volume은:" + result);
+				continue;
+				
+				
+			}
+			if (a.equals("-")) {
+				result=result-1;
+				System.out.println("volume은:" + result);
+				// continue;
+			}
+			/*
+			 * System.out.println("계속 Y, 종료 N 입력"); String yn = sc.next(); if
+			 * (yn.equals("Y") || yn.equals("y")) { System.out.println("----------------");
+			 * continue; } if (yn.equals("N") || yn.equals("n")) { break; } }
+			 * System.out.println("시스템이 종료되었습니다.");
+			 */
+		}
+	}
+
+}

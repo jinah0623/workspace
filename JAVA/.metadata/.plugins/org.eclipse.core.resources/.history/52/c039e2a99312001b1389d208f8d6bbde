@@ -1,0 +1,14 @@
+
+public class Telev {
+
+	public String onoff() {
+		
+		String tv = "ÄÑÁü";
+
+
+
+		return cl;
+
+	}
+
+}

@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Coding_16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Channel ch = new Channel();
+		String a = ch.choose();
+		
+		Telev tv = new Telev();
+		String c = tv.onoff();
+		
+		while (!stop) {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("연산자 입력(+,-)");
+			String a = sc.next();
+			
+			if (a.equals("+")) {
+				result++;				
+				System.out.println("volume은:" +result);
+			}
+				
+			if(a.equals("-")){
+				result--;				
+					System.out.println("volume은:"+result);
+					continue ;
+			}
+		}
+		Volume vl = new Volume();
+		String b = vl.updown();
+		
+
+	}
+
+}

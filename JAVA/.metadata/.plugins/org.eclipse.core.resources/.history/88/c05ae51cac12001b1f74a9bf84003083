@@ -1,0 +1,21 @@
+import java.lang.Integer;
+public class Coding_17 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String wd = "ABCDE";
+		int i = Integer.valueOf(wd);
+		String a = wd.substring(0,5);
+		System.out.println(a);
+				
+		//int num = (int)ch;
+		
+		//String a = num.substring(0);
+		
+	
+		
+
+	}
+
+}

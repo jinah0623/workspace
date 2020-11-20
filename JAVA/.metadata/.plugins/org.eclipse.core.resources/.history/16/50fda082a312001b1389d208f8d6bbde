@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Channel {
+
+	public String chnupdown() {
+		
+		String ch = "채널로 이동 되었습니다";
+		boolean stop = false;
+ 		int result = 0;
+		
+		while (!stop) {
+			int result = 0;
+				Scanner sc = new Scanner(System.in);
+				String a = sc.next();				
+				System.out.println(a+"채널로 이동되었습니다.");
+				
+			if(a.equals("+")){
+				result++;
+				System.out.println((result+1) +"채널 입니다");
+				}
+				if(a.equals("-")){				
+			System.out.println((result-1) +"채널입니다.");
+			System.out.println("현재 볼륨은"+result+"입니다");
+			continue;
+			
+				}
+		return y;
+	}
+	}}

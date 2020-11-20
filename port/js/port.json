@@ -1,0 +1,24 @@
+{
+    "items":[
+        {
+        "alt":"MARUE",
+        "src":"img/marue_logo.png"
+        },
+        {
+        "alt":"livingroom",
+        "src":"img/livingroom2.jpg"
+        },
+        {
+        "alt":"bedroom",
+        "src":"img/bedroom2.jpg"    
+        },
+        {
+        "alt":"kitchen",
+        "src":"img/kitchen.jpg"
+        },
+        {
+        "alt":"homedeco",
+        "src":"img/homedeco.jpg"
+        }
+    ]
+}

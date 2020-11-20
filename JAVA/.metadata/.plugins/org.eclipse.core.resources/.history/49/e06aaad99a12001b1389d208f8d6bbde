@@ -1,0 +1,19 @@
+
+public class Telev {
+
+	public String onoff() {
+		
+		System.out.println("ÄÑÁü ON, ²¨Áü OFF ÀÔ·Â");
+		String yn = sc.next();
+		if (yn.equals("ON") || yn.equals("off")) {
+			System.out.println("----------------");
+			continue;
+		}
+		if (yn.equals("on") || yn.equals("off")) {
+		break;
+
+		return tv;
+
+	}
+	}
+}

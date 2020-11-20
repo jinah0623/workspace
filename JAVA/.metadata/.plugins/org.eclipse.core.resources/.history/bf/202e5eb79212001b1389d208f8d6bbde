@@ -1,0 +1,13 @@
+
+public class Channel {
+
+	public String choose() {
+		
+		String ch = "7¹øÃ¤³Î";
+		
+		return ch;
+		
+
+	}
+
+}

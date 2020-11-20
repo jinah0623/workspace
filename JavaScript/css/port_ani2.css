@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+body{background: #EEEBE4; }
+a:link{text-decoration: none; color: grey;}  /*하이퍼링크 밑줄 삭제*/
+#wrap{width: 100%;color: #EEEBE4; font-size: 30px; text-align: center;}
+#header{background-color:#EEEBE4 ; justify-content: space-between; align-items: center; padding: 0.8 2rem;}
+#menu_left{display: flex; align-items: center; justify-content: space-between; flex-direction: column; background-color: white; padding: 1rem 1.5rem;}
+#menu_left ul{position: relative; padding: 0; list-style: none; }
+/*.menu_toggle{display: none; position: absolute; left: 1rem; font-size: 2rem; color: black;}*/
+.m_list{display: inline-block; font-size: 0.5rem; padding: 0;}
+.m_list li{list-style: none; padding: 0.5rem 2rem;}
+.m_list :hover{background-color: rgba(181, 224, 252, 0.534);}
+
+.m_personal{display: inline-block; font-size: 0.5rem; padding: 0; color: grey;}
+.m_personal li{list-style: none; padding: 0.5rem 2rem; }
+.m_personal :hover{background-color: rgba(181, 224, 252, 0.534);}
+
+.search{display: inline-block; font-size: 0.8rem; padding: 0;}
+#search_bar{width: 8rem; height: 0.8rem; font-size: 0.1rem;}
+.search i{color:grey;}
+
+.m_sns{list-style: none; display: flex;}
+.m_sns li{padding: 1rem;}
+.m_sns i{font-size: 1rem;}
+
+/*slideshow*/
+#content_slide{ position: relative; margin: auto;}
+.btn_left, .btn_right{cursor: pointer; position: absolute; top: 40em;  color: grey; font-weight: bold; font-size: 18px; transition: 0.5s ease;}
+.btn_right{right: 2rem; }
+.btn_left{left: 2em;}
+#content_slide .slide{width: 100%; height: 100%;}
+.circle{cursor: pointer; height: 0.5rem; width: 0.5rem; margin: 0 2px; background-color: grey; border-radius: 50%; display: inline-block; transition: background-color 0.6s ease; }
+.circle:hover{background-color: ivory;}
+
+.products, .home {font-size: 0.8rem;display: flex;justify-content: center;}
+
+#m_p_menu ul li{display: inline-block; justify-content: space-between;}
+
+
+#footer{margin: 150px;}
+.f_top .f_logo img{float: left; width: 97px; height: 27px ; }
+
+#footer .f_bottom{border: 1px; color: grey; line-height: 1.3rem;}
+#footer .f_bottom .address{position: relative; font-size: 6px;}
+
+.footer_sns{float: right; display: flex;}
+.footer_sns i{font-size: medium;}
+
+.f_bottom{color: grey; font-size:5px;}

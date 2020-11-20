@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Coding_15 {
+	public static void main(String[] args) {
+		
+		System.out.println("입력할 정수는?");
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		System.out.println("정수는:" +x);
+		
+		int sum=0;
+		for (int b=0; b<=x; b++) {
+				sum += b;
+
+		}
+	}
+}

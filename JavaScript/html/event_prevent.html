@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>\
+    <style>
+        div{
+            width: 250px;
+            height: 250px;
+            background-color:rgb(170, 212, 247);
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div><input type="checkbox"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <script>
+        document.addEventListener(
+            "wheel",
+            (event)=>{
+            console.log("스크롤 되었어");
+            event.preventDefault();
+            },
+            {passive: false}         //passive의 true값은 콘솔창에 에러. false가 기본값
+            /*capture / once / passive */
+            );
+
+        const input = document.querySelector("input");
+
+        input.addEventListener("click",(event) =>{
+            event.preventDefault();
+            console.log(event);
+        });
+
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+ul li{
+    list-style:none;
+}
+
+#wrapper{
+    width: 400px;
+    height: 650px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: url(../images/img5.jpg) no-repeat;
+    background-size: 400px 650px;
+    position: relative;
+    box-shadow: 3px 3px 4px #999;
+}
+#bg{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 90px;
+    left: 0;
+}
+
+#header{
+    text-align: center;
+    height: 90px;
+    color: #fff;
+}
+
+#header h2{
+    font-weight: 200;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 35px;
+}
+
+#icons{
+    margin-top: 10px;
+}
+#icons i{
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+#list{
+    height: 500px; 
+    overflow: auto;
+}
+#list ul{
+    
+}
+#list ul li{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+#list ul li img{
+    margin-left: 5px;
+    cursor:pointer;
+    transition: all 50ms ease-in;
+}
+
+#list ul li img:hover{
+    border:1px solid #fff;
+}
+#list ul li span{
+    line-height: 60px;
+    color:#fff;
+}
+
+#list ul li .title{
+    margin-left: 10px;
+}
+#list ul li .title:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#list ul li .time{
+    
+    margin: 0 0 0 130px;
+    display: none;
+    /* opacity: 0; */
+    transition: all 500ms ease-in;
+    cursor:pointer;
+}
+#list ul li:hover .time{
+    display: inline-block;
+    /* opacity: 1; */
+}
+
+
+
+
+#btn{
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 0 0 5px 5px;
+}
+
+#btn button{
+    border:none;
+    outline:none;
+    background: none;
+    cursor: pointer;
+    margin:5px 0 0 1.9px;
+}
+
+
+
+

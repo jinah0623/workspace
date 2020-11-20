@@ -1,0 +1,16 @@
+
+public class Game {
+
+		public String App() {
+
+
+	String gm = "«√∑π¿Ã";
+
+
+
+	return gm;
+
+}
+
+}
+

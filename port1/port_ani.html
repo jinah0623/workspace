@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/e97af72605.js"></script>
+    <link rel="stylesheet" href="css/port_ani2.css">
+    <script defer src="js/port_ani.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrap">
+        <!--삼선 헤더메뉴-->
+        <div id="header" class="main">
+            <!--Brand Logo-->
+            <a href=""><img src="img/marue_logo.png" alt="MARUE"></a>
+            <div class="menu_toggle"><i class="fas fa-bars"></i></div> 
+            <!---Left menu-->
+            <div id="menu_left">
+                <ul class="m_list">
+                    <li class="list"><a href=""> COLLECTION</a></li>
+                    <li class="list"><a href="">LIVING ROOM</a> </li>
+                    <li class="list"><a href="">BED ROOM</a> </li>
+                    <li class="list"><a href=""> KITCHEN</a></li>
+                    <li class="list"><a href="">HOME DECO</a> </li>
+                    <li class="list"><a href=""> About Us</a></li>
+                    <li class="list"><a href="">Gallery</a> </li>
+                    <li class="list"><a href=""> Find Store</a></li>   
+                </ul>
+                    <ul class="m_personal">
+                        <li><a href="">로그인</a></li>
+                        <li><a href="">주문내역</a></li>
+                        <li><a href="">고객센터</a></li>
+                    </ul>
+                    <ul class="search">
+                        <input type="text" name="search_bar" id="search_bar">
+                        <a href=""><i class="fas fa-search"></i></a>
+                    </ul>
+                <ul class="m_sns">
+                    <li class="fb">
+                        <a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li class="ig">
+                        <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="yt">
+                        <a href="http://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!---main img-->
+        <div id="content_slide">
+            <!--move to left/right-->
+            <!-- <a href="" class="btn_left" onclick="plusSlide(-1)"><i class="fas fa-chevron-left"></i></a>
+            <a href="" class="btn_right" onclick="plusSlide(1)"><i class="fas fa-chevron-right"></i></a> -->
+            <!--slideshow-->
+            <div id="slider">
+                <input type="radio" name="slider" id="slide1" checked>
+                <input type="radio" name="slider" id="slide2">
+                <input type="radio" name="slider" id="slide3">
+                <div id="slides">
+                   <div id="overflow">
+                      <div class="inner">
+                         <div class="slide slide_1">
+                            <div class="slide-content">
+                               <h2>Slide 1</h2>
+                               <p>Content for Slide 1</p>
+                            </div>
+                         </div>
+                         <div class="slide slide_2">
+                            <div class="slide-content">
+                               <h2>Slide 2</h2>
+                               <p>Content for Slide 2</p>
+                            </div>
+                         </div>
+                         <div class="slide slide_3">
+                            <div class="slide-content">
+                               <h2>Slide 3</h2>
+                               <p>Content for Slide 3</p>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+                <div id="controls">
+                   <label for="slide1"></label>
+                   <label for="slide2"></label>
+                   <label for="slide3"></label>
+                </div>
+                <div id="bullets">
+                   <label for="slide1"></label>
+                   <label for="slide2"></label>
+                   <label for="slide3"></label>
+                </div>
+             </div>
+            <!-- <input type="radio" name="content_slide" id="slide1" checked>
+            <input type="radio" name="content_slide" id="slide2">
+            <input type="radio" name="content_slide" id="slide3">
+            <div id="slides">
+                <div id="overflow">
+                    <div class="inner">
+                        <div class="slide slide_1">
+                            <div class="slide-content">
+                                <h2>Slide 1</h2>
+                                <p>Content for Slide 1</p>
+                            </div>
+                        </div>
+                        <div class="slide slide_2">
+                            <div class="slide-content">
+                                <h2>Slide 2</h2>
+                                <p>Content for Slide 2</p>
+                            </div>
+                        </div>
+                        <div class="slide slide_3">
+                            <div class="slide-content">
+                                <h2>Slide 3</h2>
+                                <p>Content for Slide 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+            </div>
+            <div id="bullets">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+            </div> -->
+            <!-- <div class="slide">
+                <img class="visual01" src="img/main_banner.jpg" alt="main_banner">
+            </div>
+            <div class="slide">
+                <img class="visual02" src="img/main_banner2.jpg" alt="main_banner2">
+            </div>
+            <div class="slide">
+                <img class="visual03" src="img/main_banner3.jpg" alt="main_banner3">
+            </div> -->
+            <!--bullets-->
+            <!-- <div class="bullet">
+                <span class="circle" onclick="currentSlide(1)"></span>
+                <span class="circle" onclick="currentSlide(2)"></span>
+                <span class="circle" onclick="currentSlide(3)"></span>
+                <a href=""class="pause"></a>
+            </div> -->
+            <!--overlay content-->
+        <div class="main_product">
+            <div m_p_btn>
+                <a href="" class="products"><i class="fas fa-sort-down"></i>Products</a>
+                <a href="" class="home"><i class="fas fa-caret-up"></i>Home</a>
+        <div id="m_p_menu">
+            <ul>
+                <li><a href=""><img src="img/livingroom2.jpg" alt="livingroom"></a></li>
+                <li><a href=""><img src="img/bedroom2.jpg" alt="bedroom"></a></li>
+                <li><a href=""><img src="img/kitchen.jpg" alt="kitchen"></a></li>
+                <li><a href=""><img src="img/homedeco.jpg" alt=""></a></li>    
+            </ul>
+            </div>
+        </div>
+        <!---footer-->
+        <div id="footer">
+            <div class="f_top">
+                <div class="f_logo"><img src="img/marue_logo.png" alt=""></a>
+                <div class="footer_sns">
+                    <li class="fb"><a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+                    <li class="ig"><a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+                    <li class="yt"><a href="http://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
+                    </div>
+                </div>
+            </div>                
+            <div class="f_bottom"> 
+                <div class="address">
+                    상호 주식회사 마루이 | 대표 정인환   
+                    <br>
+                    주소: 경기 고양시 일산동구 호수로 358-25 동문굿모닝타워2차 301호
+                    <span> | </span>
+                    전화번호: 1566-5889 / FAX: 031-902-5780 
+                    <br>
+                    사업자등록번호: 105-88-05991
+                    <span> | </span>
+                    통신판매업번호: 2019-고양덕양구-0717호
+                    <br>
+                    개인정보관리책임자: 정인환, emarue@naver.com
+                </div>
+                <div>
+                    <span>모든 이미지 저작권은 주식회사 마루이에 있으며, 이미지 무단 배포 및 사용을 금지합니다.</span>
+                </div>
+                <p>Copyright © 2017 주식회사 마루이 </p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

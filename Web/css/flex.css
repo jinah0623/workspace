@@ -1,0 +1,19 @@
+body{
+    background: beige;
+}
+
+div{
+    background: paleturquoise;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.container{
+    left: 100px;
+    top: 100px;
+    position: relative;
+   display: flex;
+   flex-direction: row;
+   /*column reverse는 10부터1까지, flex + column은 세로로 가능 */
+}

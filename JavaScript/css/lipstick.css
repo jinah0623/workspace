@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+}
+
+ul{
+    padding: 50px;
+    list-style: none;
+}
+ul li{
+    display: block;
+}
+
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(       
+        180deg,
+        rgba(218, 187, 184,1) 30%,
+        rgba(206, 165, 160,1)48%,
+        rgba(194, 142, 136,1)80%
+    ) ;
+}
+
+.list{
+    width: 1000px;
+    margin: auto;
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+.header{
+    height: 50px;
+    font-size: 35px;
+    background-color:rgb(252, 241, 241);
+    color: rgb(105, 77, 4);
+    border-radius: 20px 20px 0 0;
+}
+.header_input{
+    width: 100%;
+    height: 32px;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    color: indigo;
+}
+.header_button{
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 50%;
+    color: rgb(243, 87, 113);
+    text-align: center;
+    margin: 20px;
+
+}
+.header_button:hover{
+    background-color: grey;    
+}
+
+.lipcolors{
+    height: 650px;
+    overflow: auto;
+}
+.lipcolor{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 24px;
+}
+.lipcolor_name{
+    color: rgb(252, 252, 252);
+    font-size: 30px;
+    
+    text-align: center;
+}
+
+.lipcolor_delete{
+    font-size: 20px;
+    transition:  all 300ms ease-in;
+    background-color: transparent;
+}
+.lipcolor_delete:hover{
+    color: red;
+    transform: scale(1.2);
+}
+.lipcolor_divider{
+    width: 90%;
+    height: 1px;
+    background-color: gray;
+    margin: auto;
+}
+
+.lipcolors.li:hover{
+    background: white;
+}
+.footer{
+    height: 80px;
+    font-size: 35px;
+    background-color: rgb(252, 241, 241);
+    border-radius: 0 0 20px 20px ;
+}
+.footer_palette{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px; 
+}
+
+.palette1 {
+    background: red;
+    width: 80px;
+    height: 40px;
+    border-radius: 15%; 
+    font-style: italic;
+}
+.palette1:hover{
+    transform: scale(1.6);
+}
+.palette1.onclick{
+    color: rgb(252, 252, 252);
+}
+.palette2{
+    background-color: #ff7d6c;
+    width: 80px;
+    height: 40px;
+    border-radius: 15%;  
+    font-style: italic;
+}
+.palette2:hover{
+    transform: scale(1.6);
+}
+.palette3{
+    background-color: #f5cdb2;
+    width: 80px;
+    height: 40px;
+    border-radius: 15%; 
+    font-style: italic;
+}
+.palette3:hover{
+    transform: scale(1.6);
+}
+.palette4{
+    background-color: #FF8C00;
+    width: 80px;
+    height: 40px;
+    border-radius: 15%; 
+    font-style: italic;
+}
+.palette4:hover{
+    transform: scale(1.6);
+}
+.palette5{
+    background-color: #ff73ad;
+    width: 80px;
+    height: 40px;
+    border-radius: 15%;  
+    font-style: italic;
+}
+.palette5:hover{
+    transform: scale(1.6);
+}
+.palette6{
+    background-color: #ff008c;
+    width: 80px;
+    height: 40px;
+    border-radius: 15%;  
+    font-style: italic;
+}
+.palette6:hover{
+    transform: scale(1.6);
+}
+.palette7{
+    background-color: black;
+    width: 80px;
+    height: 40px;
+    border-radius: 15%;  
+    font-style: italic;
+    color: white;
+}
+.palette7:hover{
+    transform: scale(1.6);
+}
+.palette8{
+    background-color: rgb(70, 218, 70);
+    width: 80px;
+    height: 40px;
+    border-radius: 15%;  
+    font-style: italic;
+}
+.palette8:hover{
+    transform: scale(1.6);
+}

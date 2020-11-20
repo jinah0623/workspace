@@ -1,0 +1,49 @@
+body{
+    background: beige;
+}
+
+div{
+    background: paleturquoise;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.container{
+    left: 100px;
+    top: 100px;
+    position: relative;
+   /*column reverse는 10부터1까지, flex + column은 세로로 가능 */
+}
+.box{
+    background: palevioletred;
+    display: flex;
+    flex-direction: row;
+    
+}
+.box1{
+    background: purple;
+    
+}
+.container2{
+    left: 100px;
+    top: 100px;
+    position: absolute;
+    
+}
+.container3{
+    left: 200px;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+    position: absolute; 
+
+
+}
+.square{
+    background: powderblue;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}

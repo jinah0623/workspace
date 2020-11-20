@@ -1,0 +1,136 @@
+@charset 'utf-8'
+body{
+    background: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#header{
+    background-color: mediumaquamarine;
+    display: flex; /*가로로 진열 */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2rem;
+}
+.header_tel{
+    list-style: none;
+    display: flex;
+    padding: 1rem; 
+    font-family: "Gugi", cursive;
+    font-size: 0.8rem; 
+    /*header박스 안 간격+header_tel박스 간격 더해지기때문에 0 */
+}
+.header_tel li{
+    padding: 0.5rem;
+}
+.header_menu{
+    list-style: none;
+    display: flex;
+    padding: 1rem;
+    font-family: "Gugi", cursive;
+    font-size: 0.8rem;
+}
+.header_menu li{
+    padding: 1rem; /*16px*/
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*특정 박스(플렉스) 안에서만 사용가능 */
+    background-color: cadetblue;
+    padding: 1rem 1.5rem; /*상자 안쪽 간격*/
+}
+.nav_logo{
+    margin: 1rem;
+}
+.nav_menu{
+    display: flex;  /*가로로 설정 */
+    font-family: "Nanum Pen SCript",cursive; 
+    /*설정 않하면 윈도우 아무 폰트 보여짐*/
+    font-size: 1.5rem; /*16*1.5*/
+    padding: 0;
+}
+.nav_menu li{
+    list-style: none;
+    padding: 0.5rem 2rem;  
+    /*8px는 위아래, 20px는 양옆 간격*/
+}
+.nav_menu :hover{
+    background-color: hotpink;
+    border-radius: 0.5rem;
+}
+.nav_link li i{
+    padding: 0.5rem 0.7rem;
+    color: black; /*아이콘 색 */
+}
+.nav_link{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.nav_toggle{
+    display:none;
+    position: absolute;
+    right: 1.5rem;
+    font-size: 2rem;
+    color: ivory;
+}
+
+/* "@media and"769픽셀까지 줄어들면 발생 */
+@media screen and (max-width:768px){     
+    #nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav_menu{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        display: none;
+    }
+    .nav_menu li{
+        width: 100%;
+        text-align: center;
+    }
+    .nav_link{
+        justify-content: center;
+        width: 100%;
+        display: none;
+    }
+    .nav_toggle{
+        display: block;
+    }
+    .nav_menu.active{
+        display:flex;
+    }
+    .nav_link.active{
+        display: flex;
+    }
+}
+
+
+/*
+#side{
+    float: left;
+    width: 300px;
+    height: 600px;
+    line-height: 600px;
+    background-color: darkgreen;
+} */
+#content{
+    background-color: dodgerblue;
+}
+.player video{
+    width: 100%;
+    height: 100%;
+}
+#footer{
+    line-height: 100px;
+    background-color:cyan;
+
+}

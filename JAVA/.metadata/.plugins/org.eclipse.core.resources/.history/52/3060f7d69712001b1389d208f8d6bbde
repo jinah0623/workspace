@@ -1,0 +1,15 @@
+
+public class Coding_17 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String str = "ABCDE";
+		int x = Integer.parseInt(str);		
+		//String b = a.substring(0,5);
+
+		System.out.println(x);
+		//System.out.println(c);
+	}
+
+}

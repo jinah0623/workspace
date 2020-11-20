@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: white;
+}
+.x_line{
+    position: absolute;         /*div 3개 겹치기 가능 */
+    width: 100%;
+    background-color: white;
+    height: 2px;
+    top: 50%;
+}
+.y_line{
+    position: absolute;
+    height: 100%;
+    background-color: white;
+    width: 2px;
+    left: 50%;
+}
+.target{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);       /*개체를 x,y중심으로 이동*/
+}
+.target.active{
+    position: absolute;
+}
+.rabbit{
+    
+    width: 30px;
+    height: 60px;
+}
+.where{
+    position: absolute;
+    left: 980px;        /*글자양을 모르기 때문에 px사용하는게 안전*/
+    top: 500px;
+}
+

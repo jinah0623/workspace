@@ -1,0 +1,24 @@
+
+public class Coding_14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a;
+		int b;
+		int times;
+		
+		if (num <10) {
+			for( a=2; a<10; a++);
+				for (b=1; b<=9; b++) {
+				System.out.println(a +"´Ü");
+				
+				for(b=1; b<=9; b++) {
+					System.out.println(a + "X" + b + "=" +(a*b));
+					}
+			}
+		}
+	/*	for(int a=2; a<= 9; i++) {
+			System.out.println(a + "*" +b +"=" +times); */
+}
+	}

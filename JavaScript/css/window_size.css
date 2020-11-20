@@ -1,0 +1,9 @@
+.window_size{
+    font-size: 50px;
+    display: inline;            /*배경 색 크기 줄어듬*/
+  
+}
+ul li{
+    background-color: beige;
+    list-style: none;  
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        padding: 0px;
+        margin: 0px;
+      }
+
+      body {
+       
+        text-align: center;
+      }
+      section {
+        width: 50%;
+        margin: 50px auto;
+        background: rgb(171, 223, 93,0.7);
+        /*컬러 + opacity(투명도) 추가 0-1.0까지*/
+        border-radius: 20px;
+        padding: 20px;
+      }
+      img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        z-index: 100;
+        /* z-index = 순번 */
+        will-change: opacity;
+        /* will change = 분리*/
+      }
+      h1,
+      h3,
+      span {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <img src="anonymous.jpg" alt="avatar" />
+      <h1 id="brand">양정인력개발센터</h1>
+      <h3>시간은 결코 꿈을 배신하지 않는다.</h3>
+    </section>
+    <span>Hello World!</span>
+    <script>
+      const brand1 = document.querySelector('#brand');
+      const brand3 = document.querySelector('.brand3');
+      // const brand3 = document.querySelector('img[src="anonymous.jpg]"');
+      const section = document.querySelector("section");
+      
+      
+      const h2 = document.createElement("h2"); //<H2>
+      h2.setAttribute("id", "title"); //<h2의 class = "title"></h2의>
+      h2.textContent = "이건 제목 임";
+      //const h3 = document.querySelector("h3"); /*section.insertBefore(h2,h3); h3앞에 h2넣기*/
+      //section.appendChild(h2); //새로 추가된 자식 노드 리턴
+
+      //그냥 string 을 추가 리턴 되는 값 없음
+      section.appendChild(h2); //새로 추가된 자식노드를 리턴
+      section.insertBefore(h2, brand3);
+
+      section.removeChild(h2);
+
+      section.innerHTML = `
+      <img src="sun.jpg" alt="avatar" />
+      <h1 id="brand">Mr_Lee</h1>
+      `;
+      /* "innerHTML"은 여러가지 한번에 내용 추가/변경(사진,글)*/
+
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+
+public class Telev {
+
+	public String turnonoff() {
+		
+		boolean power;
+		int channel;
+		int volume;
+		
+		public void power() {
+			power = ! power;
+		}
+		
+		public void channelUp() {
+			++channel;
+		}
+		
+		public void channelDown() {
+			--channel;
+		}
+		public void volumeUp() {
+			++volume;
+		}
+		public void volumeDown() {
+			--volume;
+		}
+	}
+
+	/*	Coding_16  k = new Coding_16(); 
+	
+		System. out.println(k.)
+	
+		
+		
+		
+		
+		
+		/* System.out.println("ÄÑÁü ON, ²¨Áü OFF ÀÔ·Â");
+		String yn = sc.next();
+		if (yn.equals("ON") || yn.equals("off")) {
+			System.out.println("----------------");
+			continue;
+		}
+		if (yn.equals("on") || yn.equals("off")) {
+		break;
+
+		return tv;
+*/
+

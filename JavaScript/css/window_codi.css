@@ -1,0 +1,32 @@
+html{
+    width: 1920px;
+}
+body{
+    background: black;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: honeydew;
+    margin-right: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+#article1 {
+    display: block;
+  }
+  
+#article2 {
+    display: flex;
+    flex-direction: row;
+  }
+.box8{
+    background-color: hotpink;
+}
+aside {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  

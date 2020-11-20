@@ -1,0 +1,13 @@
+
+public class Channel {
+
+	public String choose() {
+		
+		String ch = "채널로 이동 되었습니다";
+		
+		return ch;
+		
+
+	}
+
+}

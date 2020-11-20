@@ -1,0 +1,14 @@
+
+public class Coding_17 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String a = "ABCDE";
+		String b = a.substring(0,5);
+		int x = Integer.parseInt("ABCDE");
+		System.out.println(a);
+		
+	}
+
+}

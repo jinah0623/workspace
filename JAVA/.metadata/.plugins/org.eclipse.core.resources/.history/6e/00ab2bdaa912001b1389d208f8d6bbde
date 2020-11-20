@@ -1,0 +1,21 @@
+import java.lang.Integer;
+public class Coding_17 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		char ch = "ABCDE";
+		System.out.println(ch);
+				
+		//int num = (int)ch;
+		
+		//String a = num.substring(0);
+		
+		System.out.println(ch);			
+
+	
+		
+
+	}
+
+}

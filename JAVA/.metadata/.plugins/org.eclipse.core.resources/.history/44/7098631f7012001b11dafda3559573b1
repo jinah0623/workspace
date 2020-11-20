@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Smartphone_volume {
+	public static void main(String[] args) {
+		boolean stop = false;
+while (!stop) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("연산자 입력(+,-)");
+	String a = sc.next();
+	System.out.println(a);
+
+	int result = 0;
+	if(a.equals("+")) {
+		System.out.println("더하기다.");
+		break;
+		
+	}
+}
+		
+	}
+
+}
