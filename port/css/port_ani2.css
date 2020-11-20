@@ -186,6 +186,7 @@ a:link {
 #slide1:checked ~ #slides .inner {
   margin-left: 0;
 }
+/*주석처리*/
 #slide2:checked ~ #slides .inner {
   margin-left: -100%;
 }
