@@ -31,8 +31,8 @@ a:link {
    width: 11rem;
    height: 1.5rem;
    font-size: 1rem;
-   border: white solid;
-   background-color: rgb(243, 239, 222);
+   border:  white solid 3px;
+   background-color: rgb(243, 239, 222) ;
  }
  .search a{
    text-decoration: none;
@@ -63,7 +63,6 @@ a:link {
   position: absolute;
   display: flex;
   background-color: white;
-  color: black;
   float: left;
   flex-direction: column;
   transition-property: transform;
@@ -238,7 +237,7 @@ a:link {
   display: flex;
   top: 90%;
   left:50%;
-  z-index: 99;
+  z-index: 98;
   position: absolute;
 }
 #bullets label {

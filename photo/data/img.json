@@ -1,0 +1,30 @@
+{
+  "acade_imgs": [
+    {
+      "alt": "famicom",
+      "image": "img/famicom.jpg"
+    },
+    {
+      "alt": "sfamicom",
+      "image": "img/superfamicom.jpg"
+    }
+  ],
+  "computer_imgs": [
+      {
+        "alt": "famicom1",
+        "image": "img/famicom.jpg"
+      },
+      {
+        "alt": "sfamicom1",
+        "image": "img/superfamicom.jpg"
+      }
+      {
+        "alt":"mac1",
+        "image":"img/mac1.png"
+      }
+      {
+        "alt":"mac2",
+        "image":"img/mac2.png"
+      }
+    ]
+}
